@@ -14,13 +14,12 @@ const About = () => {
 
     return (
         <div className="aboutUs">
-            {/* <div className="about-title">
+            <div className="about-title">
                 <h1>GODREJ JARDINIA</h1>
                 <p>Rera No : UPRERAPRJ303390</p>
-                <span>Office Space and Retail Shop Noida Sector 146</span>
-                <h4>INVESTMENT STARTS @ <span>₹4.25 Cr</span> LAKH*</h4>
-                <span>Booking Amount only @ ₹4.25 Cr</span>
-            </div> */}
+                <span>3/4 BHK Ultra Luxury Apartments</span>
+                <h4>PRICE STARTS @ <span>₹4.25 Cr</span> LAKH*</h4>
+            </div>
             <div className="about-main">
                 <div className="about-items">
                     <div className="about-left">

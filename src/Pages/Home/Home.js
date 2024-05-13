@@ -4,9 +4,12 @@ import Overview from '../../Component/Overview/Overview'
 import About from '../../Component/About/About'
 import Highlights from '../../Component/Highlights/Highlights'
 import Walkthrough from '../../Component/Walkthrough/Walkthrough'
-import Enquery from '../../Component/Enquery/Enquery'
-import HomePlan from '../../Component/HomePlan/HomePlan'
 import { useLocation } from 'react-router-dom'
+import Plans from '../../Component/Plans/Plans'
+import HPriceList from '../../Component/HPriceList/HPriceList'
+import Location from '../../Component/Location/Location'
+import HGallery from '../../Component/HGallery/HGallery'
+import Icons from '../../Component/Icons/Icons'
 
 const Home = (props) => {
     /* global dataLayer */
@@ -61,13 +64,32 @@ const Home = (props) => {
 
     return (
         <div className='home'>
-            <Banner />
-            <About />
-            <Overview />
-            <Highlights />
-            <Walkthrough />
-            {/* <HomePlan /> */}
-            {/* <Enquery /> */}
+            <section className="section" id="home">
+                <Banner />
+            </section>
+            <section className="section" id="about">
+                <About />
+                <Overview />
+            </section>
+            <section className="section" id="gallery">
+                <HGallery />
+                <Icons/>
+            </section>
+            {/* <section className="section" id="price-list">
+                <HPriceList />
+            </section> */}
+            <section className="section" id="highlights">
+                <Highlights />
+            </section>
+            <section className="section" id="plans">
+                <Plans />
+            </section>
+            <section className="section" id="location">
+                <Location />
+            </section>
+            <section className="section" id="site-visit">
+                <Walkthrough />
+            </section>
         </div>
     )
 }

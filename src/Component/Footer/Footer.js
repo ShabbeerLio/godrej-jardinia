@@ -20,25 +20,9 @@ const Footer = (props) => {
                         <img src={footerimg} alt="" />
                         {/* <p>Rera No : UPRERAPRJ303390</p> */}
                     </div>
+
                     <div className="footer-item">
-                        {/* <h3>Useful Links</h3> */}
-                        <ul>
-                            <li>
-                                <Link to="/brochure" onClick={toTop}>Brochure</Link>
-                            </li>
-                            <li>
-                                <Link to="/floor-plan" onClick={toTop}>Floor Plan</Link>
-                            </li>
-                            <li>
-                                <Link to="/price-list" onClick={toTop}>Price List</Link>
-                            </li>
-                            <li>
-                                <Link to="/blog" onClick={toTop}>Blog</Link>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer-item">
-                        <p>Agent Rera Number : UPRERAAGT23830 | Project Rera Number : UPRERAPRJ303390 </p>
+                        <p>Godrej Jardinia RERA No.: UPRERAPRJ288309/04/2024 </p>
                         {/* <h3>Contact Us</h3> */}
                         {/* <ul>
                             <li>
@@ -72,13 +56,39 @@ const Footer = (props) => {
                         <p> Sector 146, Noida, Uttar Pradesh 201301</p>
                     </div>
                     <div className="footer-item">
-                        <p>info@fairfoxeonoida.com</p>
+                        <p>info@godrejjardiniaa.com</p>
+                    </div>
+                    <div className="footer-item">
+                        {/* <h3>Useful Links</h3> */}
+                        <ul>
+                            <li>
+                                <a href="/#" onClick={toTop}>Home</a>
+                            </li>
+                            <li>
+                                <a href="/#about" onClick={toTop}>About</a>
+                            </li>
+                            <li>
+                                <a href="/#gallery" onClick={toTop}>Gallery</a>
+                            </li>
+                            <li>
+                                <a href="/#highlights" onClick={toTop}>Highlights</a>
+                            </li>
+                            <li>
+                                <a href="/#plans" onClick={toTop}>Plans</a>
+                            </li>
+                            <li>
+                                <a href="/#location" onClick={toTop}>Location</a>
+                            </li>
+                            <li>
+                                <a href="/#site-visit" onClick={toTop}>Book A Site Visit</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div className="footer-down">
                 <div className="footer-copyright">
-                    <p>©2024. Fairfox EON Noida All Rights Reserved. Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p>
+                    <p>©2024. Godrej Jardinia Noida All Rights Reserved. Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p>
                     {/* <p>Designed by :<Link href="https://globalitsources.com/">&#160; Global IT Sources</Link></p> */}
                 </div>
             </div>

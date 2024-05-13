@@ -2,13 +2,13 @@
   width: 100%;
   background-color: #b27c34;
   border: none;
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
   padding: 15px 0px;
   color: white;
 }
 .form button:hover {
-  background-color: #b27c34;
-  color: white;
+  background-color: #ffb000;
+  color: black;
 }
 .form .form-control {
   font-size: 13px;

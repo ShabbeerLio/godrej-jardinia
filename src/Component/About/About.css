@@ -1,5 +1,5 @@
 .aboutUs {
-  padding: 3rem 0rem;
+  padding: 6rem 0rem;
   width: 100%;
   background-color: #fafafa;
 }
@@ -46,7 +46,7 @@
 }
 
 .about-title h4 {
-  color: #e6b16a;
+  color: #e6b16a ;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
@@ -120,11 +120,16 @@
   place-items: center;
   overflow: hidden;
   border-radius: 8px;
+  color: white;
+  transition: .2s ease-in-out;
+}
+.about-button a:hover {
+  background-color: #ffb000;
+  color: black;
 }
 
 .about-button a p {
   z-index: 1;
-  color: white;
   margin: 0;
   padding: 0px 12px;
   font-size: 20px;
@@ -140,6 +145,10 @@
 @media only screen and (max-width: 990px) {
   .about-main {
     max-width: 720px;
+  }
+
+  .about-items {
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 680px) {

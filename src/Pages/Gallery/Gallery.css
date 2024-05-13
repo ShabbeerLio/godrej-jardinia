@@ -13,6 +13,11 @@
   margin-left: auto;
 }
 
+.Page-title h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 .gallery-box {
   display: flex;
   gap: 1rem;
@@ -23,9 +28,6 @@
 }
 .gallery-items2 {
   width: 40%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
 }
 
 .gallery-box img {
@@ -33,6 +35,7 @@
   border-radius: 8px;
   height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .gallery-box2 {
@@ -74,7 +77,7 @@
 .Gallery-main .model.open img {
   width: auto;
   max-width: 100%;
-  height: auto;
+  height: 100vh;
   max-height: 100%;
   display: block;
   line-height: 0;
@@ -85,12 +88,37 @@
 .Gallery-main .model.open svg {
  position: fixed;
  top: 4%;
- right: 10%;
+ right: 4%;
  font-size: 40px;
  cursor: pointer;
  background-color: red;
  border-radius: 8px;
  color: white;
+ z-index: 99;
+}
+
+.model .owl-nav button {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px !important;
+}
+.model .owl-nav button span{
+ color: white;
+ font-size: 200px;
+}
+.model .owl-nav button.owl-prev {
+  position: absolute;
+  top: 45%;
+  left: 1%;
+}
+.model .owl-nav button.owl-next {
+  position: absolute;
+  top: 45%;
+  right: 1%;
 }
 
 @media (min-width: 1200px) {
@@ -118,5 +146,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+
+  .Gallery-main .model.open img {
+    object-fit: contain;
   }
 }

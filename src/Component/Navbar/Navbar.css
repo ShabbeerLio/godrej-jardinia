@@ -10,8 +10,8 @@
 
 .nav-menu {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
   padding: 0px 15px;
 }
 .navbar-items {
@@ -163,11 +163,18 @@
   border-radius: 5px;
   margin-left: 20px;
 }
+.call-button p:hover {
+  background-color: #ffb000;
+}
+.call-button p:hover a {
+  color: black;
+}
 
 .call-button p a {
   text-decoration: none;
   color: white;
 }
+
 .call-button p a svg {
   font-size: 18px;
   margin-right: 10px;
@@ -245,7 +252,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffb000;
+  background-color: #b27c34;
   margin-bottom: 8px;
   z-index: 1;
 }
@@ -257,7 +264,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #ffb000;
+  background-color: #b27c34;
   animation: shine 2s infinite;
   z-index: -1;
 }
@@ -267,20 +274,25 @@
 
 .fix-icon-enquery {
   position: fixed;
-  bottom: 50%;
-  right: -4%;
-  rotate: -90deg;
+  right: 0;
+  top: 50%;
+  z-index: 2;
 }
 
 .fix-icon-enquery p {
-  background-color: #283664;
-  padding: 12px 24px;
+  background-color: #b27c34;
   color: white;
-  border-radius: 8px;
-  margin: 0;
+  border-radius: 20px 20px 0 0;
   cursor: pointer;
-  text-align: right;
-  transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -83px;
+  transform: rotate(-90deg);
+  transition: all 0.8s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  height: 50px;
+  width: 215px;
 }
 .fix-icon-enquery p:hover {
   background-color: #ffb000;
@@ -310,11 +322,11 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .nav-menu {
     max-width: 1140px;
   }
-}
+} */
 
 @media screen and (min-width: 990px) {
   .navbar-nav .nav-item .dropdown-menu.mega-menu::before {
@@ -333,9 +345,6 @@
 
   .nav-button {
     display: none;
-  }
-  .fix-icon-enquery {
-    right: -4%;
   }
 }
 
@@ -357,9 +366,6 @@
     margin: 10px 0px;
     padding: 1rem 0;
   }
-  .fix-icon-enquery {
-    right: -5%;
-  }
 }
 @media only screen and (max-width: 540px) {
   .company-logo img {
@@ -368,8 +374,5 @@
 
   .company-logo img {
     padding: 15px 0px;
-  }
-  .fix-icon-enquery {
-    right: -15%;
   }
 }
