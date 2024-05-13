@@ -31,8 +31,9 @@ const Banner = () => {
                         <span>New Launch</span>
                         <h5>At Sec 146, Noida</h5>
                         <h2>Godrej Jardinia</h2>
+                        <h5>Stunning architecture influenced by the timeless elegance of European design.</h5>
                         <p>Premium 3 BHK & 4 BHK Residences Starts <span> ₹ 4.75 Cr*</span> </p>
-                        <h5>A Once-in-a-lifetime Opportunity Along Noida Expressway.</h5>
+                        <p>Possession in December 2028</p>
                     </div>
                 </div>
             </div>

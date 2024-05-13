@@ -33,8 +33,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home title={"Godrej Jardinia | Sector 146 Noida"} descriptions={"Godrej Tropical Isle Sector 146 Noida is a premium upcoming residential project that offers spacious 3, 3.5, & 4 BHK residences starting at ₹2.23 crores onwards."} />} />
-          <Route path="/gallery-view" exact element={<Gallery title={"Godrej Jardinia | Sector 146 Noida"} descriptions={"Godrej Tropical Isle Sector 146 Noida is a premium upcoming residential project that offers spacious 3, 3.5, & 4 BHK residences starting at ₹2.23 crores onwards."} />} />
+          <Route path="/" exact element={<Home title={"GODREJ JARDINIA - 3/4 BHP Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Tropical Isle Sector 146 Noida is a premium upcoming residential project that offers spacious 3, 3.5, & 4 BHK residences starting at ₹2.23 crores onwards."} />} />
+          <Route path="/gallery-view" exact element={<Gallery title={"GODREJ JARDINIA - 3/4 BHP Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Tropical Isle Sector 146 Noida is a premium upcoming residential project that offers spacious 3, 3.5, & 4 BHK residences starting at ₹2.23 crores onwards."} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

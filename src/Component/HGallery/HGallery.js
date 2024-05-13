@@ -26,13 +26,13 @@ const HGallery = () => {
         // Replace '/gallery-view' with the appropriate route for your home page
         window.location.href = '#home';
     };
-    
+
     return (
         <div className='HGallery'>
             <div className='HGallery-main'>
                 <h3>Gallery</h3>
                 <div className="hgallery-box">
-                    {GalleryData.slice(0, 4).map((item) => (
+                    {GalleryData.slice(0, 8).map((item) => (
                         <img src={item.cover} alt="" onClick={formIsOpen} />
                     ))}
                 </div>

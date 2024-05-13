@@ -1,35 +1,27 @@
 const HighlightsData = [
     {
         id: 1,
-        detail: "Stunning Piano-Themed Landscapes",
+        detail: "Experience the charm of European aesthetics with meticulously designed residences",
     },
     {
         id: 2,
-        detail: "Boating Canals in 3 Acre Park Area",
+        detail: "Indulge in a lifestyle of opulence with lavish amenities",
     },
     {
         id: 3,
-        detail: "Exclusive Pool And Beachfront Clubhouse",
+        detail: "Enjoy the convenience of living in Sector-146, Noida, with seamless connectivity to major hubs",
     },
     {
         id: 4,
-        detail: "Triple Heighted Club Lobby",
+        detail: "Embrace a sustainable lifestyle surrounded by lush greenery, landscaped gardens.",
     },
     {
         id: 5,
-        detail: "5-tier Security Systems",
+        detail: "Built to the highest standards of quality and craftsmanship.",
     },
     {
         id: 6,
-        detail: "Close Proximity To Two International Airports",
-    },
-    {
-        id: 7,
-        detail: "Grand Entrance With High-tech Amenities",
-    },
-    {
-        id: 8,
-        detail: "Every Drop-off Area has Sculptures & Musicals Fountains",
+        detail: "Elevate your living experience with a host of premium amenities, impeccable design.",
     },
 ]
 

@@ -38,7 +38,7 @@
   color: white;
   padding: 2rem 3rem;
   border-radius: 8px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .banner-stick-box h2{
@@ -50,6 +50,7 @@
 }
 .banner-stick-box h5{
   margin: 10px 0px;
+  font-weight: 300;
 }
 .banner-stick-box p{
   margin-bottom: 10px;

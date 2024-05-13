@@ -16,22 +16,22 @@ const About = () => {
         <div className="aboutUs">
             <div className="about-title">
                 <h1>GODREJ JARDINIA</h1>
-                <p>Rera No : UPRERAPRJ303390</p>
+                <p>RERA No.: UPRERAPRJ288309/04/2024 </p>
                 <span>3/4 BHK Ultra Luxury Apartments</span>
-                <h4>PRICE STARTS @ <span>₹4.25 Cr</span> LAKH*</h4>
+                <h4>European-Inspired Architecture</h4>
             </div>
             <div className="about-main">
                 <div className="about-items">
                     <div className="about-left">
                         <div className="about-detail">
                             <h3>GODREJ JARDINIA NOIDA, Sector 146 Noida Expressway</h3>
-                            <p>Welcome to GODREJ JARDINIA, It Properties plans to woo home-buyers and investors alike with its quality residential project located at a strategic location at Sector 146 in Noida. They have announced that they have purchased two land parcels in Sector 146, Noida, for a residential township. Not only does Godrej Jardinia Noida project provide space-efficient plans, but it also has green landscapes. The overall experience would be complete serenity.</p>
-                            <p>With its unparalleled features and amenities, GODREJ JARDINIA redefines the concept of commercial spaces, offering a harmonious blend of functionality, aesthetics, and luxury. Elevate your business to new heights of success and prestige at GODREJ JARDINIA, where every detail is meticulously crafted to enhance your corporate experience. Welcome to a world of commercial excellence in Greater Noida's most prestigious address.</p>
+                            <p>Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics. Set against the backdrop of Sector-146 in Noida, this development embodies the essence of sophistication and elegance. Inspired by the timeless charm of European architecture and design, every aspect of Godrej Jardinia is meticulously curated to evoke a sense of opulence and refinement.</p>
+                            <p>From its grand façade adorned with intricate detailing to its impeccably landscaped gardens reminiscent of European estates, every corner exudes an aura of grandeur. Residents are treated to a lifestyle of unparalleled luxury, with lavish amenities and world-class facilities meticulously integrated into the fabric of the community. With its fusion of European-inspired aesthetics and contemporary comforts, Godrej Jardinia stands as an epitome of indulgent living in the heart of Noida.</p>
                         </div>
                         <div className="about-button">
-                            <Link to="/site-visit" onClick={toTop}>
+                            <a href="/#site-visit" onClick={toTop}>
                                 <p>Interested in Site Visit ?</p>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className="about-right">

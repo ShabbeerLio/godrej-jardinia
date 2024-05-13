@@ -1,12 +1,12 @@
 const GalleryData = [
     {
         id: 1,
-        cover: require("../../Assets/Gallery/1.jpg"),
+        cover: require("../../Assets/Gallery/21.jpg"),
         alttag: "",
     },
     {
         id: 2,
-        cover: require("../../Assets/Gallery/2.jpeg"),
+        cover: require("../../Assets/Gallery/4.jpg"),
         alttag: "",
     },
     {
@@ -16,7 +16,7 @@ const GalleryData = [
     },
     {
         id: 4,
-        cover: require("../../Assets/Gallery/4.jpg"),
+        cover: require("../../Assets/Gallery/2.jpeg"),
         alttag: "",
     },
     {
@@ -36,7 +36,7 @@ const GalleryData = [
     },
     {
         id: 8,
-        cover: require("../../Assets/Gallery/8.jpg"),
+        cover: require("../../Assets/Gallery/1.jpg"),
         alttag: " ",
     },
     {
@@ -101,7 +101,7 @@ const GalleryData = [
     },
     {
         id: 21,
-        cover: require("../../Assets/Gallery/21.jpg"),
+        cover: require("../../Assets/Gallery/8.jpg"),
         alttag: " ",
     },
 ]
