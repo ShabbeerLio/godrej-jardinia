@@ -53,7 +53,7 @@ const Footer = (props) => {
                         </ul> */}
                     </div>
                     <div className="footer-item">
-                        <p> Sector 146, Noida, Uttar Pradesh 201301</p>
+                        <p>Plot No - GH04 A, Near Noida-Greater Noida Expy, Sector 146, Noida, Uttar Pradesh 201310</p>
                     </div>
                     <div className="footer-item">
                         <p>info@godrejjardiniaa.com</p>

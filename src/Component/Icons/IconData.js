@@ -7,22 +7,22 @@ const IconData = [
     {
         id: 2,
         cover: require("../../Assets/Icons/icon2.png"),
-        title:"Indoor All-Weather-Controlled Pool"
+        title:"Luxe Spa And Salon"
     },
     {
         id: 3,
         cover: require("../../Assets/Icons/icon3.png"),
-        title:"Indoor All-Weather-Controlled Pool"
+        title:"Kids’ Pool Area"
     },
     {
         id: 4,
         cover: require("../../Assets/Icons/icon4.png"),
-        title:"Indoor All-Weather-Controlled Pool"
+        title:"Gym"
     },
     {
         id: 5,
         cover: require("../../Assets/Icons/icon5.png"),
-        title:"Indoor All-Weather-Controlled Pool"
+        title:"Banquet Hall"
     },
 ]
 

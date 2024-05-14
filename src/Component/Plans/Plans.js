@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./Plans.css"
-import floor1 from "../../Assets/FloorPlan/floorPlan-1.webp"
-import floor2 from "../../Assets/FloorPlan/floorPlan-2.webp"
-import floor3 from "../../Assets/FloorPlan/floorPlan-3.webp"
+import floor1 from "../../Assets/FloorPlan/floor-1.jpg"
+import floor2 from "../../Assets/FloorPlan/floor-2.jpg"
+import floor3 from "../../Assets/FloorPlan/floor-3.jpg"
 import FormFloat from '../Navbar/FormFloat'
 
 const Plans = () => {

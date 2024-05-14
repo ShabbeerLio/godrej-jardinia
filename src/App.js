@@ -33,8 +33,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home title={"GODREJ JARDINIA - 3/4 BHP Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
-          <Route path="/gallery-view" exact element={<Gallery title={"GODREJ JARDINIA - 3/4 BHP Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
+          <Route path="/" exact element={<Home title={"GODREJ JARDINIA - 3/4 BHK Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
+          <Route path="/gallery-view" exact element={<Gallery title={"GODREJ JARDINIA - 3/4 BHK Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
         </Routes>
         <Footer />
       </BrowserRouter>
