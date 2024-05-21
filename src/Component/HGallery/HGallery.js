@@ -33,7 +33,7 @@ const HGallery = () => {
                 <h3>Gallery</h3>
                 <div className="hgallery-box">
                     {GalleryData.slice(0, 8).map((item) => (
-                        <img src={item.cover} alt="" onClick={formIsOpen} />
+                        <img src={item.cover} alt={item.alttag} onClick={formIsOpen} />
                     ))}
                 </div>
                 <div className="hgallery-button">

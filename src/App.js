@@ -9,32 +9,32 @@ import Gallery from "./Pages/Gallery/Gallery";
 function App() {
 
   // remove inspect and copy element
-  //  useEffect(() => {
-  //   const handleRightClick = (e) => {
-  //     e.preventDefault();
-  //   };
+   useEffect(() => {
+    const handleRightClick = (e) => {
+      e.preventDefault();
+    };
 
-  //   const handleSelect = (e) => {
-  //     e.preventDefault();
-  //     return false;
-  //   };
+    const handleSelect = (e) => {
+      e.preventDefault();
+      return false;
+    };
 
-  //   document.addEventListener('selectstart', handleSelect);
-  //   document.addEventListener('contextmenu', handleRightClick);
+    document.addEventListener('selectstart', handleSelect);
+    document.addEventListener('contextmenu', handleRightClick);
 
-  //   return () => {
-  //     document.removeEventListener('contextmenu', handleRightClick);
-  //     document.removeEventListener('selectstart', handleSelect);
-  //   };
-  // }, []);
+    return () => {
+      document.removeEventListener('contextmenu', handleRightClick);
+      document.removeEventListener('selectstart', handleSelect);
+    };
+  }, []);
 
   return (
     <>
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home title={"GODREJ JARDINIA - 3/4 BHK Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
-          <Route path="/gallery-view" exact element={<Gallery title={"GODREJ JARDINIA - 3/4 BHK Ultra Luxury Residence Sector 146 Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
+          <Route path="/" exact element={<Home title={"GODREJ JARDINIA | GODREJ Sector 146 Noida | JARDINIA Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
+          <Route path="/gallery-view" exact element={<Gallery title={"GODREJ JARDINIA | GODREJ Sector 146 Noida | JARDINIA Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

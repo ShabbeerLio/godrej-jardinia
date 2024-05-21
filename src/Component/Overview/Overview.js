@@ -49,27 +49,27 @@ const Overview = () => {
                                 responsive={responsiveOptions}
                             >
                                 <div className="category-card">
-                                    <img src={hall} alt="eon noida" />
+                                    <img src={hall} alt="GODREJ JARDINIA NOIDA, Sector 146" />
                                     <p>Gym</p>
                                 </div>
                                 <div className="category-card">
-                                    <img src={food} alt="eye of noida" />
+                                    <img src={food} alt="GODREJ JARDINIA Noida Expressway" />
                                     <p>Badminton Court</p>
                                 </div>
                                 <div className="category-card">
-                                    <img src={Shopping} alt="eon eye of noida" />
+                                    <img src={Shopping} alt="JARDINIA NOIDA, Sector 146" />
                                     <p>Swimming Pool</p>
                                 </div>
                                 <div className="category-card">
-                                    <img src={walking} alt="fairfox eon commercial park noida" />
+                                    <img src={walking} alt="GODREJ JARDINIA Sector 146 Noida Expressway" />
                                     <p>Indoor Games</p>
                                 </div>
                                 <div className="category-card">
-                                    <img src={banhall} alt="eon project noida" />
+                                    <img src={banhall} alt="GODREJ JARDINIA Sector 146 NOIDA" />
                                     <p>multipurpose Hall</p>
                                 </div>
                                 <div className="category-card">
-                                    <img src={spot} alt="eon project noida" />
+                                    <img src={spot} alt="GODREJ JARDINIA" />
                                     <p>Jogging Track</p>
                                 </div>
                             </ReactOwlCarousel>

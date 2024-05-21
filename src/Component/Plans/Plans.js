@@ -21,19 +21,19 @@ const Plans = () => {
                 <h3>Floor Plans & Pricing</h3>
                 <div className="plans-box">
                     <div className="plans-card">
-                        <img src={floor1} alt="" onClick={formIsOpen} />
+                        <img src={floor1} alt="GODREJ JARDINIA Sector 146" onClick={formIsOpen} />
                         <div className="plans-card-title">
                             <p>2BHK @ <span>₹3.75 cr*</span></p>
                         </div>
                     </div>
                     <div className="plans-card">
-                        <img src={floor2} alt="" onClick={formIsOpen} />
+                        <img src={floor2} alt="GODREJ JARDINIA NOIDA" onClick={formIsOpen} />
                         <div className="plans-card-title">
                             <p>3BHK @ <span>₹4.25 cr*</span></p>
                         </div>
                     </div>
                     <div className="plans-card">
-                        <img src={floor3} alt="" onClick={formIsOpen} />
+                        <img src={floor3} alt="GODREJ JARDINIA NOIDA, Sector 146" onClick={formIsOpen} />
                         <div className="plans-card-title">
                             <p>4BHK @ <span>₹4.75 cr*</span></p>
                         </div>
