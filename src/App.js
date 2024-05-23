@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter>  
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home title={"GODREJ JARDINIA | GODREJ Sector 146 Noida | JARDINIA Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
