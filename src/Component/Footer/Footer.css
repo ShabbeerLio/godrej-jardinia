@@ -73,6 +73,17 @@
   font-weight: 700;
 }
 
+.footer-item-call a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+}
+
+.footer-item-call a svg{
+font-size: 20px;
+margin-right: 10px;
+}
+
 .footer-copyright {
   width: 100%;
   border-top: 1px solid rgb(209, 209, 209);

@@ -74,6 +74,7 @@
   padding-bottom: 20px;
 }
 
+
 .about-right {
   width: 40%;
 }
@@ -112,7 +113,7 @@
 }
 
 .about-button a {
-  padding: 10px;
+  padding: 10px 20px;
   background: #b27c34;
   position: relative;
   display: flex;
@@ -122,16 +123,17 @@
   border-radius: 8px;
   color: white;
   transition: .2s ease-in-out;
+  font-weight: 500;
+  font-size: 16px;
 }
 .about-button a:hover {
   background-color: #ffb000;
   color: black;
 }
 
-.about-button a p {
-  z-index: 1;
-  margin: 0;
-  padding: 0px 12px;
+
+.about-button a svg{
+  margin-right: 10px;
   font-size: 20px;
 }
 
