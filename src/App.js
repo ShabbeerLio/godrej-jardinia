@@ -1,12 +1,20 @@
 import "./App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import Home from "./Pages/Home/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import Footer from "./Component/Footer/Footer";
 import Gallery from "./Pages/Gallery/Gallery";
+import PriceList from "./Pages/PriceList/PriceList";
+import MasterPlan from "./Pages/MasterPlan/MasterPlan";
+import FloorPlan from "./Pages/FloorPlan/FloorPlan";
+import Location from "./Pages/Location/Location";
+import SiteVisit from "./Pages/SiteVisit/SiteVisit";
 
 function App() {
+
+  const title = "Godrej Jardinia Sector 146 Noida | Godrej Jardinia Noida Price"
+  const description = "Godrej Jardinia, New Launch pinnacle of ultra-luxury residential projects in Sector 146 Noida. Jardinia is an exquisite residential project steeped in the captivating allure of European aesthetics."
 
   // remove inspect and copy element
    useEffect(() => {
@@ -33,8 +41,13 @@ function App() {
       <BrowserRouter>  
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home title={"GODREJ JARDINIA | GODREJ Sector 146 Noida | JARDINIA Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
-          <Route path="/gallery-view" exact element={<Gallery title={"GODREJ JARDINIA | GODREJ Sector 146 Noida | JARDINIA Noida"} descriptions={"Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics."} />} />
+          <Route path="/" exact element={<Home title={title} descriptions={description} />} />
+          <Route path="/gallery" exact element={<Gallery title={title} descriptions={description} />} />
+          <Route path="/price-list" exact element={<PriceList title={title} descriptions={description} />} />
+          <Route path="/master-plan" exact element={<MasterPlan title={title} descriptions={description} />} />
+          <Route path="/floor-plan" exact element={<FloorPlan title={title} descriptions={description} />} />
+          <Route path="/location" exact element={<Location title={title} descriptions={description} />} />
+          <Route path="/site-visit" exact element={<SiteVisit title={title} descriptions={description} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

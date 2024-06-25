@@ -83,9 +83,9 @@ const Navbar = (props) => {
                             <div className="company-logo">
                                 <div className="company-logo-box">
                                     <a
-                                        className={`nav-link ${activeLink === '/#' ? 'active' : ''}`}
-                                        href="/#"
-                                        onClick={() => handleLinkClick('/#')}
+                                        className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
+                                        href="/"
+                                        onClick={() => handleLinkClick('/')}
                                     >
                                         <img src={Logo} alt="" />
                                     </a>
@@ -110,57 +110,58 @@ const Navbar = (props) => {
                                     <ul className="navbar-nav ml-auto">
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/#' ? 'active' : ''}`}
-                                                href="/#"
-                                                onClick={() => closeMenu('/#')}
+                                                className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
+                                                href="/"
+                                                onClick={() => closeMenu('/')}
                                             >
                                                 Home
                                             </a>
                                         </li>
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/#about' ? 'active' : ''}`}
-                                                href="/#about"
-                                                onClick={() => closeMenu('/#about')}
-                                            >
-                                                About
-                                            </a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a
-                                                className={`nav-link ${activeLink === '/#gallery' ? 'active' : ''}`}
-                                                href="/#gallery"
-                                                onClick={() => closeMenu('/#gallery')}
+                                                className={`nav-link ${activeLink === '/gallery' ? 'active' : ''}`}
+                                                href="/gallery"
+                                                onClick={() => closeMenu('/gallery')}
                                             >
                                                 Gallery
                                             </a>
                                         </li>
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/#highlights' ? 'active' : ''}`}
-                                                href="/#highlights"
-                                                onClick={() => closeMenu('/#highlights')}
-                                            >Highlights</a>
+                                                className={`nav-link ${activeLink === '/price-list' ? 'active' : ''}`}
+                                                href="/price-list"
+                                                onClick={() => closeMenu('/price-list')}
+                                            >
+                                                Price List
+                                            </a>
+                                        </li>
+                                       
+                                        <li className="nav-item">
+                                            <a
+                                                className={`nav-link ${activeLink === '/master-plan' ? 'active' : ''}`}
+                                                href="/master-plan"
+                                                onClick={() => closeMenu('/master-plan')}
+                                            >Master Plan</a>
                                         </li>
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/#plans' ? 'active' : ''}`}
-                                                href="/#plans"
-                                                onClick={() => closeMenu('/#plans')}
-                                            >Plans</a>
+                                                className={`nav-link ${activeLink === '/floor-plan' ? 'active' : ''}`}
+                                                href="/floor-plan"
+                                                onClick={() => closeMenu('/floor-plan')}
+                                            >Floor Plans</a>
                                         </li>
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/#location' ? 'active' : ''}`}
-                                                href="/#location"
-                                                onClick={() => closeMenu('/#location')}
+                                                className={`nav-link ${activeLink === '/location' ? 'active' : ''}`}
+                                                href="/location"
+                                                onClick={() => closeMenu('/location')}
                                             >Location</a>
                                         </li>
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/#site-visit' ? 'active' : ''}`}
-                                                href="/#site-visit"
-                                                onClick={() => closeMenu('/#site-visit')}
+                                                className={`nav-link ${activeLink === '/site-visit' ? 'active' : ''}`}
+                                                href="/site-visit"
+                                                onClick={() => closeMenu('/site-visit')}
                                             >Book A Site Visit</a>
                                         </li>
                                         <div className="nav-action">

@@ -5,13 +5,6 @@ import { Link } from 'react-router-dom'
 
 const About = (props) => {
 
-    const toTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'auto'
-        });
-    }
-
     return (
         <div className="aboutUs">
             <div className="about-title">
@@ -25,8 +18,9 @@ const About = (props) => {
                     <div className="about-left">
                         <div className="about-detail">
                             <h3>GODREJ JARDINIA NOIDA, Sector 146 Noida Expressway</h3>
-                            <p>Godrej Jardinia, a pinnacle of ultra-luxury living, is an exquisite residential project steeped in the captivating allure of European aesthetics. Set against the backdrop of Sector-146 in Noida, this development embodies the essence of sophistication and elegance. Inspired by the timeless charm of European architecture and design, every aspect of Godrej Jardinia is meticulously curated to evoke a sense of opulence and refinement.</p>
-                            <p>From its grand façade adorned with intricate detailing to its impeccably landscaped gardens reminiscent of European estates, every corner exudes an aura of grandeur. Residents are treated to a lifestyle of unparalleled luxury, with lavish amenities and world-class facilities meticulously integrated into the fabric of the community. With its fusion of European-inspired aesthetics and contemporary comforts, Godrej Jardinia stands as an epitome of indulgent living in the heart of Noida.</p>
+                            <p>Godrej Jardinia is the New Launch Ultra Luxury Residential Project in Sector 146, Noida, located on Noida-Greater Noida Expressway.                            </p>
+                            <p>It’s integrated, a new phase of an ancient dream; Godrej Jardinia is an emblematic pinnacle of excess luxury justified for the world’s upper crust most exclusively; it is a luxurious residential project that mirrors the charm of a European street.</p>
+                            <p>Jardinia Project is sited in the context of Sector-146 in Noida, and this development depicts a spirit of modernity and luxury. The aesthetics of Godrej Jardinia have been designed with inspiration from traditional European architecture and interior design philosophy. Every element in the premises has been tended to in a most discerning manner.</p>
                         </div>
                         <div className="about-button">
                                 <Link to='tel: +919821128500'>

@@ -1,23 +1,23 @@
 const HighlightsData = [
     {
         id: 1,
-        detail: "Experience the charm of European aesthetics with meticulously designed residences",
+        detail: "Turn your housing experience into a memorable journey of European aesthetics with our well-thought-out homes.",
     },
     {
         id: 2,
-        detail: "Indulge in a lifestyle of opulence with lavish amenities",
+        detail: "Experience the grandeur with some of the best amenities for living.",
     },
     {
         id: 3,
-        detail: "Enjoy the convenience of living in Sector-146, Noida, with seamless connectivity to major hubs",
+        detail: "Relish the strategic location of your home in Sector-146, Noida, to access various important locations with the utmost ease.",
     },
     {
         id: 4,
-        detail: "Embrace a sustainable lifestyle surrounded by lush greenery, landscaped gardens.",
+        detail: "Choosing an environment of green landscapes, well-cared gardens, and the use of eco-friendly approaches in everyday life.",
     },
     {
         id: 5,
-        detail: "Built to the highest standards of quality and craftsmanship.",
+        detail: "Made with extreme precision and boasting the best of quality in every aspect.",
     },
     {
         id: 6,

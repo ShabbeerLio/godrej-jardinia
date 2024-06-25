@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import "./Form.css"
 
-const Form = () => {
+const Form = ({btntxt}) => {
 
     // form
     const form = useRef();
@@ -117,7 +117,7 @@ const Form = () => {
                         />
                     </div>
                     <button type="submit" className="btn btn-primary">
-                        Book A Site Visit
+                        {btntxt}
                     </button>
                 </form>
             )}

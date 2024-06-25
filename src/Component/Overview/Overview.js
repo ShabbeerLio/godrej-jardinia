@@ -29,7 +29,7 @@ const Overview = () => {
                 <div className="overview-item">
                     <div className="overview-left">
                         <div className="overview-form">
-                            <Form />
+                        <Form btntxt={"Book A Site Visit"}/>
                         </div>
                     </div>
                     <div className="overview-right">
@@ -37,9 +37,9 @@ const Overview = () => {
                             <h3>Overview</h3>
                         </div>
                         <div className="overview-detail">
-                            <p>Godrej Jardinia, nestled in Sector-146, Noida, stands as a testament to modern living intertwined with natural splendor. This residential enclave redefines urban lifestyle, offering a harmonious blend of contemporary architecture and lush green surroundings. Boasting meticulously crafted apartments, each space is thoughtfully designed to exude elegance and functionality.</p>
-                            <p>Residents here enjoy a plethora of amenities designed to cater to every aspect of their well-being, from rejuvenating green spaces to state-of-the-art fitness facilities and recreational areas. With its strategic location, Godrej Jardinia provides seamless connectivity to major hubs across the city, ensuring convenience at every turn. Embracing sustainability and luxury in equal measure, this haven in Noida sets a new benchmark for modern urban living.</p>
-                            {/* <p>Immerse yourself in cultural performances at the amphitheater or relax on the performance deck overlooking the landscape terraces and tree bosque seating areas. With features like vehicular and pedestrian boulevards, sculptural staircases for basement connections, FAIRFOX EON ensures that every aspect of your commercial experience is thoughtfully curated for success and enjoyment. Welcome to a new era of commercial sophistication at FAIRFOX EON, where every detail is designed to elevate your business and lifestyle.</p> */}
+                            <p>Located in the thriving city of Noida, specifically Sector-146, Godrej Jardinia captures the best of modern life, blended with the beauty of nature. This luxury residential enclave brings a whole new meaning to the urban lifestyle as it is a perfect blend of architectural designs and landscape. Making use of outstanding design, the apartments provide an elegant and functional look and feel through the use of impressive materials in the structure.</p>
+                            <p>In its every design and decoration, from a majestic frontage complete with trims and carvings to the gardens that bespeak the well-manicured estates in Europe, the generosity of an image is conveyed. People get to live a kind of life that is totally extravagant and full of comforts, and the society that is planned tries to incorporate comfort at every step with petrifying standards of global standards in comfort.                             </p>
+                            <p>Being a Class A Commercial Building designed with an aesthetic influence of European architectural concepts integrated with a modern luxurious touch accompanied by full-fledged comforts, Godrej Jardinia offers a lavish lifestyle in the prime location of Noida.</p>
                         </div>
                         <div className="overview-category">
                             <ReactOwlCarousel

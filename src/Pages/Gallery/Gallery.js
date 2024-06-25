@@ -55,20 +55,20 @@ const Gallery = (props) => {
             dataLayer.push(arguments);
         }
 
-        // Load the Google Analytics script only once
-        const gaScriptId = 'ga-gtag';
-        if (!document.getElementById(gaScriptId)) {
-            const script = document.createElement('script');
-            script.id = gaScriptId;
-            script.async = true;
-            script.src = 'https://www.googletagmanager.com/gtag/js?id=G-2RCPYCCP0C';
-            document.head.appendChild(script);
+       // Load the Google Analytics script only once
+       const gaScriptId = 'ga-gtag';
+       if (!document.getElementById(gaScriptId)) {
+           const script = document.createElement('script');
+           script.id = gaScriptId;
+           script.async = true;
+           script.src = 'https://www.googletagmanager.com/gtag/js?id=G-2RCPYCCP0C';
+           document.head.appendChild(script);
 
-            script.onload = () => {
-                gtag('js', new Date());
-                gtag('config', 'G-2RCPYCCP0C');
-            };
-        }
+           script.onload = () => {
+               gtag('js', new Date());
+               gtag('config', 'G-2RCPYCCP0C');
+           };
+       }
     }, [props.title, props.descriptions, location.pathname]);
 
     return (
