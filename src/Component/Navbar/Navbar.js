@@ -87,7 +87,8 @@ const Navbar = (props) => {
                                         href="/"
                                         onClick={() => handleLinkClick('/')}
                                     >
-                                        <img src={Logo} alt="" />
+                                        {/* <img src={Logo} alt="" /> */}
+                                        <h5>Godrej Jardinia</h5>
                                     </a>
                                 </div>
                             </div>

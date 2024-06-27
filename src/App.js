@@ -10,6 +10,7 @@ import MasterPlan from "./Pages/MasterPlan/MasterPlan";
 import FloorPlan from "./Pages/FloorPlan/FloorPlan";
 import Location from "./Pages/Location/Location";
 import SiteVisit from "./Pages/SiteVisit/SiteVisit";
+import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/floor-plan" exact element={<FloorPlan title={title} descriptions={description} />} />
           <Route path="/location" exact element={<Location title={title} descriptions={description} />} />
           <Route path="/site-visit" exact element={<SiteVisit title={title} descriptions={description} />} />
+          <Route path="/disclaimer" exact element={<Disclaimer title={title} descriptions={description} />} />
         </Routes>
         <Footer />
       </BrowserRouter>
