@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import "./MasterPlan.css"
-import masterimg from "../../Assets/Masterplan/master-plan.webp"
+import masterimg from "../../Assets/Masterplan/master-plan.jpg"
 import { useLocation } from 'react-router-dom';
 
 const MasterPlan = (props) => {
